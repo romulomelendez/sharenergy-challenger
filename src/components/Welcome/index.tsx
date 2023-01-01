@@ -1,9 +1,9 @@
-export const Welcome = () => {
-    
-    return (
+import { WelcomeContainer, Title } from './styles'
 
-        <h1>Welcome</h1>
+export const Welcome: React.FC = () => (
 
-    )
+    <WelcomeContainer>
+        <Title>WELCOME</Title>
+    </WelcomeContainer>
 
-}
+)
