@@ -5,9 +5,9 @@ export const FormContainer = styled.div `
     background-color: white;
     display: grid;
     grid-template-rows: repeat(3, max-content);
-    height: 100%;
-    justify-content: center;
+    justify-items: center;
     align-content: center;
+    height: 100%;
     row-gap: 50px;
     padding: 10px;
 

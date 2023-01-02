@@ -9,6 +9,7 @@ export const ActionsFormContainer = styled.div `
     max-height: max-content;
     padding: 15px;
     height: 100%;
+    font-size: small;
 
 `
 
