@@ -1,3 +1,5 @@
+import { ForgotPassword } from '../ForgotPassword'
+
 import { Formulaire, Input, Button, FormTitle, FormSubTitle, TitleContainer, FormContainer } from './styles'
 
 export const Form: React.FC = () => {
@@ -12,6 +14,7 @@ export const Form: React.FC = () => {
             <Formulaire>
                 <Input type="email" placeholder="E-mail" />
                 <Input type="password" placeholder="Password" />
+                <ForgotPassword />
             </Formulaire>
             <Button type="button">LOGIN</Button>
         </FormContainer>

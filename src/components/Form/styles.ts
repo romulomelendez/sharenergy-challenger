@@ -42,7 +42,7 @@ export const TitleContainer = styled.div `
 export const Formulaire = styled.form `
 
     display: grid;
-    grid-template-rows: repeat(2, max-content);
+    grid-template-rows: repeat(3, max-content);
     height: max-content;
     row-gap: 25px;
 
