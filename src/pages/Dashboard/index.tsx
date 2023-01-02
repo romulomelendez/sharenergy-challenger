@@ -21,7 +21,7 @@ export const Dashboard: React.FC = () => {
 
         let userControl = 0
         while (userControl <= 4) {
-            fetch('https://randomuser.me/api/')
+            fetch(import.meta.env.VITE_API_URL)
               .then(response => response.json())
               .then(userData => {
 
